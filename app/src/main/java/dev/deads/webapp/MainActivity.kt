@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
     private val LANGUAGE_KEY = "SAVED_LANG"
     private val SSL_IGNORE_KEY = "SSL_IGNORE"
     private val IS_FIRST_RUN_KEY = "IS_FIRST_RUN"
-    private val DEFAULT_URL = "https://github.com/DedBash/AndroidTV-WebAPP"
+    private val DEFAULT_URL = "https://cloudcinema.net/"
 
     override fun attachBaseContext(newBase: Context) {
         val prefs = newBase.getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE)
